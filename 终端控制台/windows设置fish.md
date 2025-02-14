@@ -64,7 +64,11 @@ D:/ /d ntfs binary,posix=0,user 0 0
 
 ## fish 安装插件
 
-![alt text](设置fish.assets/image-2.png)
+```bash
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+```
+
+![alt text](windows设置fish.assets/image-2.png)
 
 ### 安裝 Tide 主題
 
@@ -120,11 +124,8 @@ fisher install PatrickF1/fzf.fish
 
 #### 安裝前置套件 fzf
 
-这个会报错，但是可以忽略。
-
 ```bash
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
+scoop install fzf
 ```
 
 #### 安裝前置套件 fd
