@@ -15,3 +15,9 @@
 ```txt
 export PATH=$PATH:/usr/bin
 ```
+
+## 总结
+
+`windows` 下载 `zsh` ，集成到 `git bash` 使用，太卡了。
+
+推荐： `fish`
