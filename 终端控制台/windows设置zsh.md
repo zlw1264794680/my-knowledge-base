@@ -10,8 +10,4 @@
 
 查找 `C:\Users\micro\.oh-my-zsh` 文件夹，直接删除即可。
 
-修改 `C:\Users\micro\.bashrc` 文件：
-
-```txt
-export PATH=$PATH:/usr/bin
-```
+修改 `C:\Users\micro\.bashrc` 文件，内容直接清空，保留文件是为了不让bash报错。
